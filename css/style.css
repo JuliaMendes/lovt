@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: 'Ropa Sans';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    padding: 0 40px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+   color: #777777;
+    font-size: 45px;
+    margin: 0;
+  
+}
+
+header h2 {
+    font-size: 15px;
+    color: #AAAAAA;
+    margin: 0;
+    line-height: 11px;
+    margin-left: 5px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.principal {
+    margin-top: 40px;
+}
+
+.principal img {
+    width: 1200px;
+    height: 400px;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card {
+    width: 500px;
+    background: #EEEEEE;
+
+}
+.cards .card img {
+    width: 500px;
+    height: 300px;
+}
+
+.cards .card .descricao {
+    padding: 40px;
+}
+
+.cards .card .descricao button {
+    background: #51D275;
+    width: 120px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cards .card .descricao .detalhes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cards .card .descricao .preco {
+    margin: 0;
+    color: #888888;
+    font-size: 40px;
+}
+
+.cards .card .descricao p {
+    color: #555555;
+    font-size: 18px;
+}
+
+.cards .card .descricao .btn-sale {
+    background-color:#DC9730 ;
+    color: #FFFFFF;
+}
+
+.your-style {
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.your-style h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888888;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.your-style img {
+   width: 100%;
+   margin-top: 25px;
+   opacity: 50%;
+}
+
+.your-style .img-style .img-1 h3 {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+footer {
+    background-color: #333333;
+    height: 380px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 450px;
+    height: 280px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.dados-footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-footer p {
+    font-size: 20px;
+}
+
+.dados-footer .redes-sociais img {
+    margin: 8px;
+    width: 25px;
+}
