@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Ropa Sans';
+    font-family: 'Ropa Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +16,7 @@ header {
     height: 80px;
     background-color:#FFFFFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
-    padding: 0 40px;
+    padding: 0 120px;
 }
 
 header div {
@@ -22,17 +26,24 @@ header div {
 
 header h1 {
    color: #777777;
-    font-size: 45px;
+    font-size: 30px;
     margin: 0;
-  
+    font-weight: 300;
 }
 
 header h2 {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 300;
     color: #AAAAAA;
     margin: 0;
     line-height: 16px;
     margin-left: 5px;
+}
+
+header img {
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
 }
 
 .container {
@@ -43,22 +54,47 @@ header h2 {
 .principal {
     margin-top: 40px;
     background-size: cover;
+    position: relative;
 }
 
 .principal img {
-    width: 1200px;
-    height: 400px;
-    position: relative;
+    width: 100%;
 }
 
 .principal .setas {
     position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal .setas button {
+    background-color: rgba(170, 170, 170, 0.8);
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.principal .setas button img {
+   width: 20px; 
 }
 
 .cards {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .cards .card {
@@ -67,12 +103,12 @@ header h2 {
 
 }
 .cards .card img {
-    width: 500px;
+    width: 100%;
     height: 300px;
 }
 
 .cards .card .descricao {
-    padding: 40px;
+    padding: 20px;
 }
 
 .cards .card .descricao button {
@@ -83,6 +119,7 @@ header h2 {
     border-radius: 30px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 .cards .card .descricao .detalhes {
@@ -152,6 +189,7 @@ footer {
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 iframe {
@@ -175,3 +213,5 @@ iframe {
     margin: 8px;
     width: 25px;
 }
+
+ 
