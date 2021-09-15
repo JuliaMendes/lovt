@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
     padding: 0 120px;
 }
@@ -25,7 +25,7 @@ header div {
 }
 
 header h1 {
-   color: #777777;
+    color: #777777;
     font-size: 30px;
     margin: 0;
     font-weight: 300;
@@ -87,7 +87,7 @@ header img {
 }
 
 .principal .setas button img {
-   width: 20px; 
+    width: 20px;
 }
 
 .cards {
@@ -102,6 +102,7 @@ header img {
     background: #EEEEEE;
 
 }
+
 .cards .card img {
     width: 100%;
     height: 300px;
@@ -115,7 +116,8 @@ header img {
     background: #51D275;
     width: 120px;
     height: 50px;
-    font-size: 35px;
+    font-size: 25px;
+    text-transform: uppercase;
     border-radius: 30px;
     color: #FFFFFF;
     border: none;
@@ -130,9 +132,10 @@ header img {
 }
 
 .cards .card .descricao .preco {
-    margin: 0;
+    margin: 5px 0;
     color: #888888;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .cards .card .descricao p {
@@ -142,8 +145,7 @@ header img {
 }
 
 .cards .card .descricao .btn-sale {
-    background-color:#DC9730 ;
-    color: #FFFFFF;
+    background-color: #DC9730;
 }
 
 .your-style {
@@ -151,6 +153,7 @@ header img {
     display: block;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
 }
 
 .your-style h2 {
@@ -158,14 +161,19 @@ header img {
     align-items: center;
     justify-content: center;
     color: #888888;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 400;
     margin: 0 auto;
 }
 
 .your-style img {
-   width: 100%;
-   margin-top: 25px;
-   opacity: 65%;
+    width: 100%;
+    margin-top: 25px;
+    opacity: 65%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .your-style .caixa-imagens .caixa {
@@ -175,12 +183,13 @@ header img {
 .your-style .caixa-imagens .caixa h3 {
     color: #FFFFFF;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: 400;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    margin: 0;
 }
 
 footer {
@@ -189,12 +198,12 @@ footer {
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 iframe {
-    width: 450px;
-    height: 280px;
+    width: 480px;
+    height: 260px;
     border-radius: 30px;
     margin-top: 50px;
 }
@@ -210,8 +219,7 @@ iframe {
 }
 
 .dados-footer .redes-sociais img {
-    margin: 8px;
+    margin: 10px 10px 10px 0;
     width: 25px;
+    cursor: pointer;
 }
-
- 
